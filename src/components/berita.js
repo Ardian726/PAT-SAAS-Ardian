@@ -4,60 +4,63 @@ const posts = [
     id: 1,
     imageSrc:
       "https://smktibazma.sch.id/static/media/lapangan.8feef39bc2c2eaa90525.jpg",
-    imageAlt: "Front of men's Basic Tee in black.",
-    title: "Boost your conversion rate",
+    imageAlt: "Silat",
+    title:
+      "Siswa SMK TI BAZMA Bogor Raih Juara 1 Lomba Pencak Silat Tingkat Kabupaten",
     href: "#",
     description:
-      "Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.",
+      "Dalam kejuaraan yang digelar di Kabupaten Bogor, siswa-siswa SMK TI BAZMA menunjukkan prestasi gemilang dengan meraih juara 1 dalam lomba pencak silat. Keberhasilan mereka tidak hanya membanggakan sekolah, tetapi juga menjadi inspirasi bagi generasi muda di daerah tersebut.",
     date: "Mar 16, 2020",
     datetime: "2020-03-16",
-    category: { title: "Marketing", href: "#" },
+    category: { title: "Prestasi", href: "#" },
     author: {
-      name: "Michael Foster",
-      role: "Co-Founder / CTO",
+      name: "SMK TI BAZMA",
+      role: "Admin",
       href: "#",
       imageUrl:
-        "https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+        "https://smktibazma.sch.id/static/media/main-logo-2.7b74690f86ab4e9a4743.png",
     },
   },
   {
     id: 2,
     imageSrc:
       "https://smktibazma.sch.id/static/media/lapangan.8feef39bc2c2eaa90525.jpg",
-    imageAlt: "Front of men's Basic Tee in black.",
-    title: "Boost your conversion rate",
+    imageAlt: "Poster PPDB",
+    title:
+      "Pengumuman PPDB Tahun Ajaran Baru: Calon Siswa yang Berhasil Lolos Seleksi PPDB",
     href: "#",
     description:
-      "Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.",
+      "SMK TI BAZMA dengan bangga mengumumkan hasil seleksi PPDB untuk tahun ajaran baru. Melalui proses seleksi yang ketat dan adil, sejumlah calon siswa telah berhasil lolos dan berhak melanjutkan pendidikan di sekolah ini.",
     date: "Mar 16, 2020",
     datetime: "2020-03-16",
-    category: { title: "Marketing", href: "#" },
+    category: { title: "PPDB", href: "#" },
     author: {
-      name: "Michael Foster",
-      role: "Co-Founder / CTO",
+      name: "SMK TI BAZMA",
+      role: "Admin",
       href: "#",
       imageUrl:
-        "https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+        "https://smktibazma.sch.id/static/media/main-logo-2.7b74690f86ab4e9a4743.png",
     },
   },
   {
     id: 3,
     imageSrc:
       "https://smktibazma.sch.id/static/media/lapangan.8feef39bc2c2eaa90525.jpg",
-    imageAlt: "Front of men's Basic Tee in black.",
-    title: "Boost your conversion rate",
+    imageAlt: "Class Meeting SMK TI BAZMA",
+    title:
+      "Semarak Class Meeting Menghadirkan Antusiasme Tinggi di Kalangan Siswa",
     href: "#",
     description:
-      "Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.",
+      "SMK TI BAZMA Bogor baru-baru ini menjadi saksi dari sebuah peristiwa yang meriah dan membanggakan: Class Meeting yang dihadiri oleh seluruh siswa dan guru sekolah tersebut. Acara ini tidak hanya menjadi wadah untuk berbagi informasi dan mendiskusikan hal-hal penting terkait kegiatan sekolah, tetapi juga menjadi momen untuk mempererat ikatan antara seluruh anggota komunitas sekolah.",
     date: "Mar 16, 2020",
     datetime: "2020-03-16",
-    category: { title: "Marketing", href: "#" },
+    category: { title: "Kegiatan", href: "#" },
     author: {
-      name: "Michael Foster",
-      role: "Co-Founder / CTO",
+      name: "SMK TI BAZMA",
+      role: "Admin",
       href: "#",
       imageUrl:
-        "https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+        "https://smktibazma.sch.id/static/media/main-logo-2.7b74690f86ab4e9a4743.png",
     },
   },
   // More posts...
@@ -65,13 +68,13 @@ const posts = [
 
 export default function Component3() {
   return (
-    <div className="mx-auto max-w-7xl px-6 py-10 lg:px-8">
+    <div className="mx-auto max-w-7xl px-6 py-10 lg:px-8" id="berita">
       <div className="mx-auto max-w-2xl lg:mx-0">
         <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
           Berita
         </h2>
         <p className="mt-2 text-lg leading-8 text-gray-600">
-          Learn how to grow your business with our expert advice.
+          Seluruh berita terbaru dari SMK TI BAZMA.
         </p>
       </div>
       <div className="mx-auto grid mt-5 max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:mt-5 sm:pt-16 lg:mx-0 lg:max-w-none lg:grid-cols-3">

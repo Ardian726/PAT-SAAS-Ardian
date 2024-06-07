@@ -15,25 +15,26 @@ const settings = {
 
 export default function Component5() {
   return (
-    <div className="mx-auto grid max-w-2xl grid-cols-1 items-center gap-x-8 gap-y-16 py-10 lg:max-w-7xl lg:grid-cols-2 lg:px-8">
-      <Slider {...settings}>
+    <div className="mx-auto grid max-w-7xl px-6 grid-cols-1 items-center gap-x-8 gap-y-16 py-10 lg:max-w-7xl lg:grid-cols-2 lg:px-8" id="kontak">
+      <Slider {...settings} className="bg-gray-100 rounded-lg px-10">
         <div className="mx-auto my-auto max-w-2xl lg:max-w-4xl">
           <figure className="mt-10">
-            <blockquote className="text-center text-xl font-semibold leading-8 text-gray-900 sm:text-2xl sm:leading-9">
+            <blockquote className="text-center text-gray-900">
               <p>
-                “Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo
-                expedita voluptas culpa sapiente alias molestiae. Numquam
-                corrupti in laborum sed rerum et corporis.”
+                “Sekolahnya bagus banget... fasilitasnya apalagi, guru-gurunya
+                ramah & baik-baik.”
               </p>
             </blockquote>
-            <figcaption className="mt-10">
+            <figcaption className="my-10">
               <img
                 className="mx-auto h-10 w-10 rounded-full"
-                src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+                src="https://media.licdn.com/dms/image/D5603AQGYHeS13TDyxg/profile-displayphoto-shrink_800_800/0/1704354391987?e=2147483647&v=beta&t=ZBfKRf34kBZmrtN83OkrYx6XKA8gLCRi1-7N7bJbesg"
                 alt=""
               />
               <div className="mt-4 flex items-center justify-center space-x-3 text-base">
-                <div className="font-semibold text-gray-900">Judith Black</div>
+                <div className="font-semibold text-gray-900">
+                  Ulfa Mujahidah
+                </div>
                 <svg
                   viewBox="0 0 2 2"
                   width={3}
@@ -43,28 +44,29 @@ export default function Component5() {
                 >
                   <circle cx={1} cy={1} r={1} />
                 </svg>
-                <div className="text-gray-600">CEO of Workcation</div>
+                <div className="text-gray-600">Wali Siswa</div>
               </div>
             </figcaption>
           </figure>
         </div>
         <div className="mx-auto max-w-2xl lg:max-w-4xl">
           <figure className="mt-10">
-            <blockquote className="text-center text-xl font-semibold leading-8 text-gray-900 sm:text-2xl sm:leading-9">
+            <blockquote className="text-center text-gray-900">
               <p>
-                “Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo
-                expedita voluptas culpa sapiente alias molestiae. Numquam
-                corrupti in laborum sed rerum et corporis.”
+                “Sekolahnya bagus banget... fasilitasnya apalagi, guru-gurunya
+                ramah & baik-baik.”
               </p>
             </blockquote>
-            <figcaption className="mt-10">
+            <figcaption className="my-10">
               <img
                 className="mx-auto h-10 w-10 rounded-full"
-                src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+                src="https://c.superprof.com/i/m/29102234/500/20231215115735/29102234.jpg"
                 alt=""
               />
               <div className="mt-4 flex items-center justify-center space-x-3 text-base">
-                <div className="font-semibold text-gray-900">Judith Black</div>
+                <div className="font-semibold text-gray-900">
+                  IGde Bayu Priyambada
+                </div>
                 <svg
                   viewBox="0 0 2 2"
                   width={3}
@@ -74,38 +76,7 @@ export default function Component5() {
                 >
                   <circle cx={1} cy={1} r={1} />
                 </svg>
-                <div className="text-gray-600">CEO of Workcation</div>
-              </div>
-            </figcaption>
-          </figure>
-        </div>
-        <div className="mx-auto max-w-2xl lg:max-w-4xl">
-          <figure className="mt-10">
-            <blockquote className="text-center text-xl font-semibold leading-8 text-gray-900 sm:text-2xl sm:leading-9">
-              <p>
-                “Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo
-                expedita voluptas culpa sapiente alias molestiae. Numquam
-                corrupti in laborum sed rerum et corporis.”
-              </p>
-            </blockquote>
-            <figcaption className="mt-10">
-              <img
-                className="mx-auto h-10 w-10 rounded-full"
-                src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
-                alt=""
-              />
-              <div className="mt-4 flex items-center justify-center space-x-3 text-base">
-                <div className="font-semibold text-gray-900">Judith Black</div>
-                <svg
-                  viewBox="0 0 2 2"
-                  width={3}
-                  height={3}
-                  aria-hidden="true"
-                  className="fill-gray-900"
-                >
-                  <circle cx={1} cy={1} r={1} />
-                </svg>
-                <div className="text-gray-600">CEO of Workcation</div>
+                <div className="text-gray-600">Wali Siswa</div>
               </div>
             </figcaption>
           </figure>

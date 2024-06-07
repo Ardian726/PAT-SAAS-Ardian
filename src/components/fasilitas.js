@@ -5,30 +5,31 @@ import asrama from "../Fasilitas/asrama.jpg";
 import lapangan from "../Fasilitas/lapangan.jpg";
 
 const features = [
-  { name: "Ruang Kelas & LAB", description: "Designed by Good Goods, Inc." },
+  { name: "Ruang Kelas & LAB", description: "Tempat belajar para siswa" },
   {
     name: "Masjid & Aula",
-    description:
-      "Solid walnut base with rare earth magnets and powder coated steel card cover",
+    description: "Tempat Sholat dan acara",
   },
-  { name: "Gedung Asrama", description: '6.25" x 3.55" x 1.15"' },
+  {
+    name: "Gedung Asrama",
+    description: "Tempat beraktivitas para siswa setelah kegiatan KBM berakhir",
+  },
   {
     name: "Lapangan Olahraga",
-    description: "Hand sanded and finished with natural oil",
+    description: "Tempat para siswa berolahraga",
   },
 ];
 
 export default function Component4() {
   return (
-    <div className="mx-auto grid max-w-2xl grid-cols-1 items-center gap-x-8 gap-y-16 py-10 lg:max-w-7xl lg:grid-cols-2 lg:px-8">
+    <div className="mx-auto grid max-w-7xl px-6 grid-cols-1 items-center gap-x-8 gap-y-16 py-10 lg:max-w-7xl lg:grid-cols-2 lg:px-8" id="fasilitas">
       <div>
         <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
           Fasilitas Sekolah
         </h2>
         <p className="mt-4 text-gray-500">
-          The walnut wood card tray is precision milled to perfectly fit a stack
-          of Focus cards. The powder coated steel divider separates active cards
-          from new ones, or can be used to archive important task lists.
+          Seluruh fasilitas ruang lingkup pembelajaran SMK TI BAZMA yang
+          digunakan untuk melakasanakan kegitan belajar
         </p>
 
         <dl className="mt-16 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 sm:gap-y-16 lg:gap-x-8">

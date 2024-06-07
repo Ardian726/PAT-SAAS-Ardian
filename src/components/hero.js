@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Component2() {
   return (
-    <div className="overflow-hidden">
+    <div className="overflow-hidden" id="home">
       <div className="mx-auto max-w-7xl px-6 py-10 lg:px-8">
         <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
           <div className="lg:pr-8 lg:pt-4 my-auto">
