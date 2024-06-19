@@ -36,13 +36,24 @@ export default function Component2() {
               </button>
             </div>
           </div>
-          <img
+          <iframe
+            className="w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[70rem] md:-ml-4 lg:-ml-0"
+            width={1500}
+            height={600}
+            src="https://www.youtube.com/embed/Nulb66XCXJ0?si=wkG1GqQfYCsf_G5D"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+          {/* <img
             src="https://smktibazma.sch.id/static/media/asrama.d1fa6eec69bfc5732828.jpg"
             alt="Product screenshot"
             className="w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[70rem] md:-ml-4 lg:-ml-0"
             width={2432}
             height={1442}
-          />
+          /> */}
         </div>
       </div>
     </div>
